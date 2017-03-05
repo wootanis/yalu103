@@ -162,7 +162,7 @@
 					};
 				};
 			};
-			buildConfigurationList = EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "yalu103" */;
+			buildConfigurationList = EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "yalu102" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -372,7 +372,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "yalu103" */ = {
+		EA9900DE1E1E9F060056FEBD /* Build configuration list for PBXProject "yalu102" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA9900F81E1E9F060056FEBD /* Debug */,
