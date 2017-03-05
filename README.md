@@ -47,6 +47,8 @@ On the iPhone 7 & Plus models the mobile substrate has been disabled due to a KP
 
 A youtube seem to find this GitHub, and called for a possible jailbreak release.
 
-** I will NOT release any jailbreaks of my own. This is not in full collaboration with Luca Todesco (qwertyoruiopz) I am only using his code.
+## Usage
+
+I will NOT release any jailbreaks of my own. This is not in full collaboration with Luca Todesco (qwertyoruiopz) I am only using his code. 
 
 ** currently the code is only for 10.2 not 10.3, I haven’t committed to the code since it is VERY unstable and threw multiple devices in a boot loop. 
