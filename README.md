@@ -9,7 +9,7 @@ Please use the "Issues" tab for **code related** issues only. If you need suppor
 
 | Device | Version | Other |
 |---------|----------|---------|
-| iPhone 7  | iOS 10.3b4 | KPP bypass |
+| iPhone 7  | iOS 10.3b4 | mobile sub |
 
 ### Planned Support:
 
