@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		309BA5D31E6E1E360049EE93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D21E6E1E360049EE93 /* main.m */; };
+		309BA5D61E6E1E360049EE93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D51E6E1E360049EE93 /* AppDelegate.m */; };
+		309BA5D91E6E1E360049EE93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D81E6E1E360049EE93 /* ViewController.m */; };
+		309BA5DC1E6E1E360049EE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309BA5DA1E6E1E360049EE93 /* Main.storyboard */; };
+		309BA5DE1E6E1E360049EE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 309BA5DD1E6E1E360049EE93 /* Assets.xcassets */; };
+		309BA5E11E6E1E360049EE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 309BA5DF1E6E1E360049EE93 /* LaunchScreen.storyboard */; };
+		309BA5EC1E6E1E360049EE93 /* yalu103Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5EB1E6E1E360049EE93 /* yalu103Tests.m */; };
+		309BA5F71E6E1E360049EE93 /* yalu103UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5F61E6E1E360049EE93 /* yalu103UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		309BA5E81E6E1E360049EE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309BA5C61E6E1E360049EE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309BA5CD1E6E1E360049EE93;
+			remoteInfo = yalu103;
+		};
+		309BA5F31E6E1E360049EE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 309BA5C61E6E1E360049EE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 309BA5CD1E6E1E360049EE93;
+			remoteInfo = yalu103;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		309BA5CE1E6E1E360049EE93 /* yalu103.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yalu103.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		309BA5D21E6E1E360049EE93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		309BA5D41E6E1E360049EE93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		309BA5D51E6E1E360049EE93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		309BA5D71E6E1E360049EE93 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		309BA5D81E6E1E360049EE93 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		309BA5DB1E6E1E360049EE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		309BA5DD1E6E1E360049EE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		309BA5E01E6E1E360049EE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		309BA5E21E6E1E360049EE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309BA5E71E6E1E360049EE93 /* yalu103Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yalu103Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309BA5EB1E6E1E360049EE93 /* yalu103Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yalu103Tests.m; sourceTree = "<group>"; };
+		309BA5ED1E6E1E360049EE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		309BA5F21E6E1E360049EE93 /* yalu103UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yalu103UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		309BA5F61E6E1E360049EE93 /* yalu103UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = yalu103UITests.m; sourceTree = "<group>"; };
+		309BA5F81E6E1E360049EE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		309BA5CB1E6E1E360049EE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5E41E6E1E360049EE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5EF1E6E1E360049EE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		309BA5C51E6E1E360049EE93 = {
+			isa = PBXGroup;
+			children = (
+				309BA5D01E6E1E360049EE93 /* yalu103 */,
+				309BA5EA1E6E1E360049EE93 /* yalu103Tests */,
+				309BA5F51E6E1E360049EE93 /* yalu103UITests */,
+				309BA5CF1E6E1E360049EE93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		309BA5CF1E6E1E360049EE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				309BA5CE1E6E1E360049EE93 /* yalu103.app */,
+				309BA5E71E6E1E360049EE93 /* yalu103Tests.xctest */,
+				309BA5F21E6E1E360049EE93 /* yalu103UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		309BA5D01E6E1E360049EE93 /* yalu103 */ = {
+			isa = PBXGroup;
+			children = (
+				309BA5D41E6E1E360049EE93 /* AppDelegate.h */,
+				309BA5D51E6E1E360049EE93 /* AppDelegate.m */,
+				309BA5D71E6E1E360049EE93 /* ViewController.h */,
+				309BA5D81E6E1E360049EE93 /* ViewController.m */,
+				309BA5DA1E6E1E360049EE93 /* Main.storyboard */,
+				309BA5DD1E6E1E360049EE93 /* Assets.xcassets */,
+				309BA5DF1E6E1E360049EE93 /* LaunchScreen.storyboard */,
+				309BA5E21E6E1E360049EE93 /* Info.plist */,
+				309BA5D11E6E1E360049EE93 /* Supporting Files */,
+			);
+			path = yalu103;
+			sourceTree = "<group>";
+		};
+		309BA5D11E6E1E360049EE93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				309BA5D21E6E1E360049EE93 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		309BA5EA1E6E1E360049EE93 /* yalu103Tests */ = {
+			isa = PBXGroup;
+			children = (
+				309BA5EB1E6E1E360049EE93 /* yalu103Tests.m */,
+				309BA5ED1E6E1E360049EE93 /* Info.plist */,
+			);
+			path = yalu103Tests;
+			sourceTree = "<group>";
+		};
+		309BA5F51E6E1E360049EE93 /* yalu103UITests */ = {
+			isa = PBXGroup;
+			children = (
+				309BA5F61E6E1E360049EE93 /* yalu103UITests.m */,
+				309BA5F81E6E1E360049EE93 /* Info.plist */,
+			);
+			path = yalu103UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		309BA5CD1E6E1E360049EE93 /* yalu103 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309BA5FB1E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103" */;
+			buildPhases = (
+				309BA5CA1E6E1E360049EE93 /* Sources */,
+				309BA5CB1E6E1E360049EE93 /* Frameworks */,
+				309BA5CC1E6E1E360049EE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yalu103;
+			productName = yalu103;
+			productReference = 309BA5CE1E6E1E360049EE93 /* yalu103.app */;
+			productType = "com.apple.product-type.application";
+		};
+		309BA5E61E6E1E360049EE93 /* yalu103Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309BA5FE1E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103Tests" */;
+			buildPhases = (
+				309BA5E31E6E1E360049EE93 /* Sources */,
+				309BA5E41E6E1E360049EE93 /* Frameworks */,
+				309BA5E51E6E1E360049EE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309BA5E91E6E1E360049EE93 /* PBXTargetDependency */,
+			);
+			name = yalu103Tests;
+			productName = yalu103Tests;
+			productReference = 309BA5E71E6E1E360049EE93 /* yalu103Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		309BA5F11E6E1E360049EE93 /* yalu103UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 309BA6011E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103UITests" */;
+			buildPhases = (
+				309BA5EE1E6E1E360049EE93 /* Sources */,
+				309BA5EF1E6E1E360049EE93 /* Frameworks */,
+				309BA5F01E6E1E360049EE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				309BA5F41E6E1E360049EE93 /* PBXTargetDependency */,
+			);
+			name = yalu103UITests;
+			productName = yalu103UITests;
+			productReference = 309BA5F21E6E1E360049EE93 /* yalu103UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		309BA5C61E6E1E360049EE93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = devapple;
+				TargetAttributes = {
+					309BA5CD1E6E1E360049EE93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 44FGX7H7P7;
+						ProvisioningStyle = Automatic;
+					};
+					309BA5E61E6E1E360049EE93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 44FGX7H7P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309BA5CD1E6E1E360049EE93;
+					};
+					309BA5F11E6E1E360049EE93 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 44FGX7H7P7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 309BA5CD1E6E1E360049EE93;
+					};
+				};
+			};
+			buildConfigurationList = 309BA5C91E6E1E360049EE93 /* Build configuration list for PBXProject "yalu103" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 309BA5C51E6E1E360049EE93;
+			productRefGroup = 309BA5CF1E6E1E360049EE93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				309BA5CD1E6E1E360049EE93 /* yalu103 */,
+				309BA5E61E6E1E360049EE93 /* yalu103Tests */,
+				309BA5F11E6E1E360049EE93 /* yalu103UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		309BA5CC1E6E1E360049EE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309BA5E11E6E1E360049EE93 /* LaunchScreen.storyboard in Resources */,
+				309BA5DE1E6E1E360049EE93 /* Assets.xcassets in Resources */,
+				309BA5DC1E6E1E360049EE93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5E51E6E1E360049EE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5F01E6E1E360049EE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		309BA5CA1E6E1E360049EE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309BA5D91E6E1E360049EE93 /* ViewController.m in Sources */,
+				309BA5D61E6E1E360049EE93 /* AppDelegate.m in Sources */,
+				309BA5D31E6E1E360049EE93 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5E31E6E1E360049EE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309BA5EC1E6E1E360049EE93 /* yalu103Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		309BA5EE1E6E1E360049EE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				309BA5F71E6E1E360049EE93 /* yalu103UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		309BA5E91E6E1E360049EE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309BA5CD1E6E1E360049EE93 /* yalu103 */;
+			targetProxy = 309BA5E81E6E1E360049EE93 /* PBXContainerItemProxy */;
+		};
+		309BA5F41E6E1E360049EE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 309BA5CD1E6E1E360049EE93 /* yalu103 */;
+			targetProxy = 309BA5F31E6E1E360049EE93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		309BA5DA1E6E1E360049EE93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309BA5DB1E6E1E360049EE93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		309BA5DF1E6E1E360049EE93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				309BA5E01E6E1E360049EE93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		309BA5F91E6E1E360049EE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		309BA5FA1E6E1E360049EE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		309BA5FC1E6E1E360049EE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		309BA5FD1E6E1E360049EE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		309BA5FF1E6E1E360049EE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yalu103.app/yalu103";
+			};
+			name = Debug;
+		};
+		309BA6001E6E1E360049EE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yalu103.app/yalu103";
+			};
+			name = Release;
+		};
+		309BA6021E6E1E360049EE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yalu103;
+			};
+			name = Debug;
+		};
+		309BA6031E6E1E360049EE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 44FGX7H7P7;
+				INFOPLIST_FILE = yalu103UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = devapple.yalu103UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yalu103;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		309BA5C91E6E1E360049EE93 /* Build configuration list for PBXProject "yalu103" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309BA5F91E6E1E360049EE93 /* Debug */,
+				309BA5FA1E6E1E360049EE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		309BA5FB1E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309BA5FC1E6E1E360049EE93 /* Debug */,
+				309BA5FD1E6E1E360049EE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309BA5FE1E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309BA5FF1E6E1E360049EE93 /* Debug */,
+				309BA6001E6E1E360049EE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		309BA6011E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				309BA6021E6E1E360049EE93 /* Debug */,
+				309BA6031E6E1E360049EE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 309BA5C61E6E1E360049EE93 /* Project object */;
+}
