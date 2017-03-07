@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,23 +18,56 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="yalu 10.3B test playground" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BeE-Wf-EUC">
-                                <rect key="frame" x="85" y="20" width="205" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Fg-HQ-irY">
+                                <rect key="frame" x="67" y="259" width="186" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Go"/>
+                                <connections>
+                                    <action selector="gobuttontapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0g-KE-9la"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yalu 103 by devapple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTK-M7-jQD">
+                                <rect key="frame" x="80" y="20" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-iPadPro" translatesAutoresizingMaskIntoConstraints="NO" id="Vhj-p6-jgH" userLabel="Icon">
+                                <rect key="frame" x="105" y="57" width="110" height="110"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="110" id="7cm-sc-Oo9"/>
+                                    <constraint firstAttribute="height" constant="110" id="l6K-7D-TVm"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 9,7 iOS 10.3 (14E5260b)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa2-WK-Mqc">
+                                <rect key="frame" x="39" y="527" width="243" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99535852670669556" green="0.99231070280075073" blue="0.99202209711074829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0Fg-HQ-irY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VP-R2-mpP"/>
+                            <constraint firstItem="0Fg-HQ-irY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OF0-Jy-dWs"/>
+                            <constraint firstItem="oa2-WK-Mqc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="253.5" id="T7e-8F-qsN"/>
+                            <constraint firstItem="Vhj-p6-jgH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-172" id="Tyn-cO-dFo"/>
+                            <constraint firstItem="pTK-M7-jQD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vd5-Gw-Fmg"/>
+                            <constraint firstItem="Vhj-p6-jgH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3f-6C-ch3"/>
+                            <constraint firstItem="pTK-M7-jQD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-253.5" id="ezG-oN-VUb"/>
+                            <constraint firstItem="oa2-WK-Mqc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="meq-g0-Aqz"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
+            <point key="canvasLocation" x="112.5" y="116.19718309859155"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Icon-iPadPro" width="83" height="83"/>
+    </resources>
 </document>
