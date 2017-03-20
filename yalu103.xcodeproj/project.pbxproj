@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30893B351E7F6317009AC2E3 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30893B341E7F6317009AC2E3 /* UserNotifications.framework */; };
 		309BA5D31E6E1E360049EE93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D21E6E1E360049EE93 /* main.m */; };
 		309BA5D61E6E1E360049EE93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D51E6E1E360049EE93 /* AppDelegate.m */; };
 		309BA5D91E6E1E360049EE93 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 309BA5D81E6E1E360049EE93 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30893B341E7F6317009AC2E3 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		309BA5CE1E6E1E360049EE93 /* yalu103.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yalu103.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		309BA5D21E6E1E360049EE93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		309BA5D41E6E1E360049EE93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30893B351E7F6317009AC2E3 /* UserNotifications.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30893B331E7F6317009AC2E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30893B341E7F6317009AC2E3 /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		309BA5C51E6E1E360049EE93 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +96,7 @@
 				309BA5EA1E6E1E360049EE93 /* yalu103Tests */,
 				309BA5F51E6E1E360049EE93 /* yalu103UITests */,
 				309BA5CF1E6E1E360049EE93 /* Products */,
+				30893B331E7F6317009AC2E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -516,6 +528,7 @@
 				309BA5FD1E6E1E360049EE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309BA5FE1E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				309BA6001E6E1E360049EE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		309BA6011E6E1E360049EE93 /* Build configuration list for PBXNativeTarget "yalu103UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				309BA6031E6E1E360049EE93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

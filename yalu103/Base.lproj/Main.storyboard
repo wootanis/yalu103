@@ -27,6 +27,7 @@
                                 <state key="normal" title="Go"/>
                                 <connections>
                                     <action selector="gobuttontapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="t0g-KE-9la"/>
+                                    <action selector="setButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ban-ob-oma"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="yalu 103 by devapple" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTK-M7-jQD">
@@ -42,22 +43,33 @@
                                     <constraint firstAttribute="height" constant="110" id="l6K-7D-TVm"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 0,0 iOS 10.3 (14E5260b)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa2-WK-Mqc">
-                                <rect key="frame" x="39" y="527" width="243" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone 0,0 iOS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oa2-WK-Mqc">
+                                <rect key="frame" x="104" y="527" width="113" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="0.0.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YAI-SD-vdK">
+                                <rect key="frame" x="219" y="525" width="79" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="SoC-aQ-Fnb"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.99535852670669556" green="0.99231070280075073" blue="0.99202209711074829" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="0Fg-HQ-irY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6VP-R2-mpP"/>
+                            <constraint firstItem="YAI-SD-vdK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" constant="98.5" id="Nat-nr-lzs"/>
                             <constraint firstItem="0Fg-HQ-irY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OF0-Jy-dWs"/>
                             <constraint firstItem="oa2-WK-Mqc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="253.5" id="T7e-8F-qsN"/>
                             <constraint firstItem="Vhj-p6-jgH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-172" id="Tyn-cO-dFo"/>
                             <constraint firstItem="pTK-M7-jQD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Vd5-Gw-Fmg"/>
                             <constraint firstItem="Vhj-p6-jgH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Y3f-6C-ch3"/>
                             <constraint firstItem="pTK-M7-jQD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-253.5" id="ezG-oN-VUb"/>
+                            <constraint firstItem="YAI-SD-vdK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="253" id="f3f-44-Clm"/>
                             <constraint firstItem="oa2-WK-Mqc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="meq-g0-Aqz"/>
                         </constraints>
                     </view>
